@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Definição das Cores do Projeto por var CSS */
+  --branco: #ffffff;
+  --preto: #2b2b2b;
+  --verde-claro: #eaf8f2;
+  --verde-destaque: #22b07d;
+  --verde-escuro: #1b693d;
+}
+
+body {
+  margin: 0;
+  background: var(--verde-destaque);
+  height: 100vh;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.todo-lista {
+  background: var(--branco);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 120px auto;
+  max-width: 993px;
+  padding: 40px 164px;
+  width: 100%;
+  min-height: 50vh;
+}
+
+.titulo {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 2.063rem;
+  text-align: center;
+}
+
+.titulo-destaque {
+  color: var(--verde-destaque);
+}
+
+.form {
+  display: flex;
+  height: 59px;
+  margin-bottom: 47px;
+  width: 100%;
+}
+
+.form-input {
+  background: var(--preto);
+  border-style: none;
+  border-radius: 10px 0px 0px 10px;
+  color: var(--branco);
+  font-size: 20px;
+  font-weight: 400;
+  height: 59px;
+  padding-left: 24px;
+  width: 565px;
+}
+
+.form-input::placeholder {
+  color: var(--branco);
+}
+
+.form-date-toggle {
+  align-items: center;
+  background: var(--preto);
+  display: flex;
+  height: 59px;
+  justify-content: center;
+  position: relative;
+  width: 70px;
+}
+
+.form-date-toggle--botao {
+  background-image: url('../img/datepicker.svg');
+  height: 28.33px;
+  width: 25px;
+}
+
+.form-date-input {
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.form-date-input::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.form-botao {
+  background: var(--verde-destaque);
+  border-style: none;
+  border-radius: 0px 10px 10px 0px;
+  color: var(--branco);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  height: 59px;
+  text-transform: uppercase;
+  width: 145px;
+}
+
+.form-botao:hover {
+  background: var(--verde-destaque);
+}
+
+.lista {
+  height: 30px;
+  line-height: 30px;
+  width: 100%;
+}
+
+.task {
+  background-color: var(--verde-claro);
+  border-radius: 10px;
+  color: var(--preto);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 1.25rem 1.25rem;
+}
+
+.button,
+.delete-botao {
+  background-color: var(--verde-escuro);
+  border: none;
+  border-radius: 10px;
+  color: var(--branco);
+  cursor: pointer;
+  outline: none;
+}
+
+.check-botao {
+  width: 35px;
+  height: 35px;
+  background-color: var(--verde-destaque);
+  color: var(--branco);
+}
+
+.check-botao:active {
+  background-color: var(--verde-escuro);
+}
+
+.content {
+  margin: 0;
+}
+
+.task.done .content {
+  text-decoration: line-through;
+  text-decoration-color: var(--branco);
+}

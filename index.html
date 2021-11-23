@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/assets/css/normalize.css" />
+    <link rel="stylesheet" href="./src/assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>ToDo App | Vinicius Santos</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="todo-lista">
+        <header>
+          <p class="titulo">
+            Hello, you have <span class="titulo-destaque">4 tasks</span> to do.
+            You can do it!
+          </p>
+        </header>
+
+        <form class="form" action="">
+          <input
+            class="form-input"
+            type="text"
+            placeholder="Add your taks for the day..."
+            data-form-input
+          />
+
+          <span class="form-date-toggle">
+            <span class="form-date-toggle--botao"></span>
+            <input
+              class="form-date-input"
+              type="datetime-local"
+              data-form-date
+            />
+          </span>
+
+          <button class="form-botao" data-form-button>Create</button>
+        </form>
+
+        <ul class="lista" data-list></ul>
+      </div>
+    </div>
+    <footer class="rodape">
+      <p>Done with ☕ by Vinicius Santos.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
