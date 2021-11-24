@@ -1,56 +1,43 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/assets/css/normalize.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE-=edge" />
     <link rel="stylesheet" href="./src/assets/css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
-      rel="stylesheet"
-    />
-    <title>ToDo App | Vinicius Santos</title>
+    <title>Task List</title>
   </head>
   <body>
-    <div class="app">
-      <div class="todo-lista">
-        <header>
-          <p class="titulo">
-            Hello, you have <span class="titulo-destaque">4 tasks</span> to do.
-            You can do it!
-          </p>
-        </header>
-
-        <form class="form" action="">
-          <input
-            class="form-input"
-            type="text"
-            placeholder="Add your taks for the day..."
-            data-form-input
-          />
-
-          <span class="form-date-toggle">
-            <span class="form-date-toggle--botao"></span>
+    <main>
+      <div class="container">
+        <div class="task-app">
+          <header class="titulo">
+            Hello, you have tasks to do. You can do it!
+          </header>
+          <div class="task-field">
             <input
-              class="form-date-input"
-              type="datetime-local"
-              data-form-date
+              class="task-input"
+              type="text"
+              placeholder="Add your new task..."
+              data-app-input
             />
-          </span>
+            <span class="datepicker-toggle">
+              <span class="datepicker-toggle-button"></span>
+              <input
+                class="task-date-input"
+                type="datetime-local"
+                data-app-date
+              />
+            </span>
+            <button class="task-button" data-app-button>Create</button>
+          </div>
 
-          <button class="form-botao" data-form-button>Create</button>
-        </form>
-
-        <ul class="lista" data-list></ul>
+          <ul class="task-list" data-list></ul>
+        </div>
       </div>
-    </div>
-    <footer class="rodape">
-      <p>Done with ☕ by Vinicius Santos.</p>
+    </main>
+    <footer class="rodape-container">
+      <p class="rodape-conteudo">Made with ☕ by Vinicius Santos.</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
