@@ -41,6 +41,10 @@ body {
   text-align: center;
 }
 
+.titulo .remaining-tasks {
+  color: var(--verde-destaque);
+}
+
 .task-app .task-field {
   display: flex;
   height: 50px;
