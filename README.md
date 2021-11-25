@@ -1,6 +1,8 @@
 # Task List App
 
-<img align="center" alt="task app" src=".github/cover.svg">
+<img align="center" alt="task app" src="./github/cover.svg">
+
+<br>
 
 Task List is a Front-End Project that allows you to create a to-do list and organize them by date.
 
