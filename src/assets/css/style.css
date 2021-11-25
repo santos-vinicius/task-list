@@ -193,10 +193,22 @@ body {
 .rodape-container {
   display: flex;
   justify-content: center;
+  margin-top: 2.938rem;
 }
 
 .rodape-container .rodape-conteudo {
-  color: var(--branco);
+  color: var(--preto);
   font-size: 18px;
   font-weight: 400;
+}
+
+.rodape-conteudo .rodape-link {
+  color: var(--verde-destaque);
+
+  text-decoration: none;
+}
+
+.rodape-link:hover {
+  color: var(--verde-escuro);
+  font-weight: 600;
 }

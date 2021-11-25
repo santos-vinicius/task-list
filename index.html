@@ -7,57 +7,63 @@
     <title>Task List</title>
   </head>
   <body>
-    <main>
-      <div class="container">
-        <div class="task-app">
-          <header class="titulo">
-            Hello, you have <span class="remaining-tasks">tasks</span> to do.
-            You can do it!
-          </header>
-          <div class="task-field">
+    <div class="container">
+      <div class="task-app">
+        <header class="titulo">
+          Hello, you have <span class="remaining-tasks">tasks</span> to do. You
+          can do it!
+        </header>
+        <div class="task-field">
+          <input
+            class="task-input"
+            type="text"
+            placeholder="Add your new task..."
+            data-app-input
+          />
+          <span class="datepicker-toggle">
+            <span class="datepicker-toggle-button"></span>
             <input
-              class="task-input"
-              type="text"
-              placeholder="Add your new task..."
-              data-app-input
+              class="task-date-input"
+              type="datetime-local"
+              data-app-date
             />
-            <span class="datepicker-toggle">
-              <span class="datepicker-toggle-button"></span>
-              <input
-                class="task-date-input"
-                type="datetime-local"
-                data-app-date
-              />
-            </span>
-            <button class="task-create-button" data-app-button>Create</button>
-          </div>
-
-          <ul class="task-list" data-list>
-            <li class="task-item">
-              <span class="task-check">
-                <button class="task-check-button"></button>
-              </span>
-              <div class="task-content">
-                Buy a new game &bull; <span class="task-date">08:45 AM</span>
-              </div>
-              <button class="task-delete-button">Delete</button>
-            </li>
-            <li class="task-item">
-              <span class="task-check">
-                <button class="task-check-button"></button>
-              </span>
-              <div class="task-content">
-                Hit the gym &bull; <span class="task-date">17:00 PM</span>
-              </div>
-              <button class="task-delete-button">Delete</button>
-            </li>
-          </ul>
+          </span>
+          <button class="task-create-button" data-app-button>Create</button>
         </div>
+
+        <ul class="task-list" data-list>
+          <li class="task-item">
+            <span class="task-check">
+              <button class="task-check-button"></button>
+            </span>
+            <div class="task-content">
+              Buy a new game &bull; <span class="task-date">08:45 AM</span>
+            </div>
+            <button class="task-delete-button">Delete</button>
+          </li>
+          <li class="task-item">
+            <span class="task-check">
+              <button class="task-check-button"></button>
+            </span>
+            <div class="task-content">
+              Hit the gym &bull; <span class="task-date">17:00 PM</span>
+            </div>
+            <button class="task-delete-button">Delete</button>
+          </li>
+        </ul>
+        <footer class="rodape-container">
+          <p class="rodape-conteudo">
+            Made with ☕ by
+            <a
+              href="https://github.com/santos-vinicius"
+              class="rodape-link"
+              target="_blank"
+              >Vinicius Santos</a
+            >.
+          </p>
+        </footer>
       </div>
-    </main>
-    <footer class="rodape-container">
-      <p class="rodape-conteudo">Made with ☕ by Vinicius Santos.</p>
-    </footer>
+    </div>
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
