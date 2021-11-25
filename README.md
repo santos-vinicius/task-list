@@ -1,4 +1,4 @@
-# Task List App
+# Task List Project
 
 <img align="center" alt="task app" src="./github/cover.svg">
 
