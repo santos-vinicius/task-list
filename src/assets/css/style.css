@@ -177,7 +177,7 @@ body {
 }
 
 .task-item .task-delete-button {
-  background-color: var(--verde-escuro);
+  background-color: var(--verde-destaque);
   border: none;
   border-radius: 5px;
   color: var(--branco);
@@ -186,6 +186,10 @@ body {
   font-weight: 600;
   height: 35px;
   width: 90px;
+}
+
+.task-item .task-delete-button:hover {
+  background-color: var(--verde-escuro);
 }
 
 /* Footer */
@@ -204,7 +208,6 @@ body {
 
 .rodape-conteudo .rodape-link {
   color: var(--verde-destaque);
-
   text-decoration: none;
 }
 
