@@ -61,7 +61,7 @@ Give a ⭐ if you like this project.
 
 ---
 
-This project is MIT licensed. See the LICENSE file for details.
+This project is MIT licensed. See the [LICENSE](https://github.com/santos-vinicius/task-list/blob/main/LICENSE) file for details.
 
 ---
 
