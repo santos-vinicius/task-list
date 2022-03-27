@@ -4,7 +4,7 @@
 
 <br>
 
-Task List is a Front-End Project that allows you to create a to-do list and organize them by date.
+Task List is a Front-End Project that allows you to create a to-do list.
 
 > **[Live demo](https://santos-vinicius.github.io/task-list/)**
 
