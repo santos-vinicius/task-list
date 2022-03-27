@@ -24,16 +24,6 @@ This project was developed using the following technologies:
 - HTML
 - CSS
 
-### Layout
-
----
-
-This project UI was developed by **Vinicius Santos** on **Figma**, you can view the layout details through the links below:
-
-- [Figma Layout](https://www.figma.com/file/yJHmhe4hQKUs976VMi2A6E/task-list-app?node-id=0%3A1).
-
-> Remembering that you need to have a [Figma](https://www.figma.com/) account to access it.
-
 ### Demo
 
 ---
