@@ -12,7 +12,7 @@ Task List is a Front-End Project that allows you to create a to-do list.
 
 This front-end project was developed to test and learn some skills after completing the Front End qualification by @Alura.
 
-### Stacks
+### Stacks and Resources
 
 ---
 
