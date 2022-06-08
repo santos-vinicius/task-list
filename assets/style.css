@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* CORES DO PROJETO */
+  --main-white: #ffffff;
+  --main-dark: #2b2b2b;
+  --green: #22b07d;
+  --dark-green: #1b693d;
+  --light-green: #eaf8f2;
+}
+
+body {
+  background-color: var(--green);
+  max-width: 1440px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  align-items: center;
+  background: var(--main-white);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 30px;
+  width: 100%;
+  max-width: 750px;
+}
+
+.title {
+  color: var(--main-dark);
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.newTask {
+  max-width: 700px;
+  display: flex;
+}
+
+.newTask__input {
+  background: var(--main-dark);
+  border: none;
+  border-radius: 9.87324px 0px 0px 9.87324px;
+  color: var(--main-white);
+  font-size: 18px;
+  font-weight: 400;
+  padding: 14px 24px;
+  width: 500px;
+}
+
+.newTask input:focus {
+  outline: none;
+}
+
+.newTask__btn {
+  background: var(--green);
+  border: none;
+  border-radius: 0px 9.87324px 9.87324px 0px;
+  color: var(--main-white);
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 14px 24px;
+  text-transform: uppercase;
+}
+
+.tasks__container {
+  margin-top: 25px;
+}
+
+.task__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: var(--light-green);
+  border-radius: 10px;
+  width: 616px;
+  padding: 12px 24px;
+  margin-bottom: 1rem;
+}
+
+.task__delete {
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--dark-green);
+  color: var(--main-white);
+  padding: 8px 20px;
+  font-weight: 700;
+  font-size: 15;
+}
+
+/* Utilities */
+
+.error {
+  border: 2px solid red !important;
+}
+
+.error::placeholder {
+  color: white;
+}

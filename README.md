@@ -1,4 +1,6 @@
-# WIP - Task List Project
+# Task List Project
+
+![Project Banner]()
 
 Task List is a Front-End Project that allows you to create a to-do list.
 
@@ -19,6 +21,7 @@ This project was developed using the following technologies:
 - JavaScript
 - HTML
 - CSS
+- Mobile First
 
 ### Demo
 
@@ -35,7 +38,7 @@ Feel free to check [issues page](https://github.com/santos-vinicius/task-list/is
 
 **Vinicius Santos**
 
-- Github: [@santos-vinicius](http://github.com/santos-vinicius)
+- Twitter: [@santosviniciusv](http://twitter.com/santosviniciusv)
 
 ### Show your support
 

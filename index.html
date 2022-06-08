@@ -4,25 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="main.css" />
-    <title>WIP - Lista de Tarefas</title>
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Task List</title>
   </head>
   <body>
-    <div class="container">
-      <div class="new-task-container">
-        <input
-          type="text"
-          class="new-task-input"
-          placeholder="Tarefa para ser feita..."
-        />
-        <button class="new-task-button">Adicionar</button>
+    <main>
+      <div class="container">
+        <h1 class="title">Task List</h1>
+        <div class="newTask">
+          <input
+            type="text"
+            class="newTask__input"
+            placeholder="Add a new task..."
+          />
+          <button class="newTask__btn">Create</button>
+        </div>
+
+        <div class="tasks__container"></div>
       </div>
-      <div class="tasks-container"></div>
-    </div>
-    <script
-      src="https://kit.fontawesome.com/b6342621b0.js"
-      crossorigin="anonymous"
-    ></script>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
