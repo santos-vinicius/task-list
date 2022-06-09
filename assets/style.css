@@ -117,3 +117,39 @@ main {
 .error::placeholder {
   color: white;
 }
+
+.completed {
+  text-decoration: line-through;
+}
+
+@media screen and (max-width: 460px) {
+  .container {
+    max-width: 440px;
+    padding: 30px 20px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .newTask {
+    max-width: 380px;
+  }
+
+  .newTask__input {
+    font-size: 14px;
+    width: 270px;
+    padding: 10px;
+  }
+
+  .newTask__bt {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .task__item {
+    max-width: 390px;
+    font-size: 16px;
+    padding: 14px;
+  }
+}

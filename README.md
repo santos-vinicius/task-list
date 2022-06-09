@@ -1,6 +1,6 @@
 # Task List Project
 
-![Project Banner]()
+![Project Banner](./assets/img/github_banner.png)
 
 Task List is a Front-End Project that allows you to create a to-do list.
 
@@ -36,6 +36,10 @@ This project was developed using the following technologies:
 Contributions, issues and feature requests are welcome!
 Feel free to check [issues page](https://github.com/santos-vinicius/task-list/issues).
 
+### Author
+
+---
+
 **Vinicius Santos**
 
 - Twitter: [@santosviniciusv](http://twitter.com/santosviniciusv)
@@ -44,7 +48,7 @@ Feel free to check [issues page](https://github.com/santos-vinicius/task-list/is
 
 ---
 
-Give a ⭐ if you like this project.
+> Give a ⭐ if you like this project.
 
 ### License
 
@@ -54,4 +58,4 @@ This project is MIT licensed. See the [LICENSE](https://github.com/santos-vinici
 
 ---
 
-<p align="center"> README was made with ☕ and 💛 by Vinicius Santos. </p>
+<p align="center"> Made with ☕ and 💛 by Vinicius Santos. </p>
