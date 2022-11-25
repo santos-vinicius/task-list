@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+:root {
+  --dark-gray: #393F50;
+  --light-gray: #F2EEE7;
+  --marine-blue: #435892;
+  --sand: #BCAA8A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: var(--dark-gray);
+}
+
+button {
+  cursor: pointer;
+}

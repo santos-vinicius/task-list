@@ -1,0 +1,19 @@
+:root {
+  --dark-gray: #393F50;
+  --light-gray: #F2EEE7;
+  --marine-blue: #435892;
+  --sand: #BCAA8A;
+}
+
+.main {
+  background: var(--light-gray);
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 600px;
+  border-radius: 5px
+}
+
+.main h1 {
+  font-size: 20px;
+  text-align: center;
+}
